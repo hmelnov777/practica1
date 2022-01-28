@@ -34,7 +34,7 @@ let parallaxInstance = new Parallax(scene);
 
 const swiper = new Swiper('.swiper-container',{
 
-    directory: 'horizontal',
+    direction: 'horizontal',
     spaceBetween:50,
     slidesPerView:3 ,
     loop:true,
